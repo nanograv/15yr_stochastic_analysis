@@ -1,0 +1,2 @@
+# Issues (hopefully to be resolved soon)
+* empirical distributions are not recognized properly when saved and loaded as a `json` file leading to complaints from the code that checks to make sure that they cover their priors completely.

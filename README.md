@@ -17,7 +17,7 @@
     * Download and install the relevant Miniforge file from here: https://github.com/conda-forge/miniforge
 
 
-2. To install a new environment: `conda create -n enterprise_extensions la_forge h5pulsar`
+2. To install a new environment: `conda create -n enterprise_extensions la_forge h5pulsar ipympl`
     * Note: if you use Miniconda or Anaconda instead of Miniforge, you will need to use `conda create -n enterprise -c conda-forge enterprise_extensions la_forge`
     * M1 Macs can make a conda environment and install `enterprise` by first following the instructions [here](https://conda-forge.org/docs/user/tipsandtricks.html#installing-apple-intel-packages-on-apple-silicon)
 
