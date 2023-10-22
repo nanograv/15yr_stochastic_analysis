@@ -1,5 +1,5 @@
 # This file can be used to run thermodynamic integration
-# To run this, use `mpirun -np [NUM OF CHAINS] python ti_sample.py`
+# To run this, use `mpirun -np [NUMBER OF CHAINS] python ti_sample.py`
 # Note that this will require a lot of memory!
 
 import numpy as np
