@@ -6,9 +6,14 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Generic badge](https://img.shields.io/twitter/follow/NANOGrav?style=social)](https://twitter.com/NANOGrav)
  
- Authors: [Aaron Johnson](https://github.com/AaronDJohnson), [Stephen Taylor](http://stevertaylor.github.io/), [Sarah Vigeland](https://github.com/svigeland) for the [NANOGrav Collaboration](https://github.com/nanograv)
+Authors: [Aaron Johnson](https://github.com/AaronDJohnson), [Stephen Taylor](http://stevertaylor.github.io/), [Sarah Vigeland](https://github.com/svigeland) for the [NANOGrav Collaboration](https://github.com/nanograv)
 
- Please send questions about this tutorial to `aaron.johnson (at) nanograv.org`
+Please send questions about this tutorial to `aaron.johnson (at) nanograv.org`
+
+## <span style="color:red">Important Note About Data!</span>
+**If you want to use our data for publications, the full data are available for download here (add link here).**
+
+Data used in the `tutorials` section of this repository have been reduced to make them available on GitHub and may not reproduce the results of the 15-year analysis exactly.
 
 ## Installing PTA software
 
@@ -17,9 +22,8 @@
     * Download and install the relevant Miniforge file from here: https://github.com/conda-forge/miniforge
 
 
-2. To install a new environment: `conda create -n enterprise_extensions la_forge h5pulsar ipympl jupyterlab`
-    * Note: if you use Miniconda or Anaconda instead of Miniforge, you will need to use `conda create -n enterprise -c conda-forge enterprise_extensions la_forge`
-    * M1 Macs can make a conda environment and install `enterprise` by first following the instructions [here](https://conda-forge.org/docs/user/tipsandtricks.html#installing-apple-intel-packages-on-apple-silicon)
+2. To install a new environment: `conda create -n enterprise -c conda-forge enterprise_extensions la_forge h5pulsar ipympl jupyterlab`
+    * Newer Macs (M1/M2/M3) can make a conda environment and install `enterprise` by first following the instructions [here](https://conda-forge.org/docs/user/tipsandtricks.html#installing-apple-intel-packages-on-apple-silicon) to create an environment and then using `conda install -c conda-forge enterprise_extensions la_forge h5pulsar ipympl jupyterlab`
 
 3. This will create a conda environment that can be activated by `conda activate enterprise`
 
@@ -28,8 +32,7 @@
 5. Set the Kernel
 
     * when opening a new notebook: click `New` and select `Python [conda env:enterprise]`  
-    * when opening an existing notebook (like this tutorial): click `Kernel` --> `Change Kernel` --> `Python [conda env:enterprise]`  
-
+    * when opening an existing notebook (like these tutorials): click `Kernel` --> `Change Kernel` --> `Python [conda env:enterprise]`  
 
 ## Tutorials
 
@@ -46,5 +49,3 @@
 ### Optimal Statistic Analysis
 	
   This tutorial gives an introduction to frequentist methods we can use to look for an isotropic GWB.
-
-
