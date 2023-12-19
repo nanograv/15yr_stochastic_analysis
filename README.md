@@ -6,7 +6,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Generic badge](https://img.shields.io/twitter/follow/NANOGrav?style=social)](https://twitter.com/NANOGrav)
  
-Authors: [Aaron Johnson](https://github.com/AaronDJohnson), [Pat Meyers] (https://github.com/meyers-academic), [Stephen Taylor](http://stevertaylor.github.io/), [Sarah Vigeland](https://github.com/svigeland) for the [NANOGrav Collaboration](https://github.com/nanograv)
+Authors: [Aaron Johnson](https://github.com/AaronDJohnson), [Pat Meyers](https://github.com/meyers-academic), [Stephen Taylor](http://stevertaylor.github.io/), [Sarah Vigeland](https://github.com/svigeland) for the [NANOGrav Collaboration](https://github.com/nanograv)
 
 Please send questions about this tutorial to `aaron.johnson (at) nanograv.org`
 
