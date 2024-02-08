@@ -11,7 +11,7 @@ Authors: [Aaron Johnson](https://github.com/AaronDJohnson), [Pat Meyers](https:/
 Please send questions about this tutorial to `aaron.johnson (at) nanograv.org`
 
 ## <span style="color:red">Important Note About Data!</span>
-**If you want to use our data for publications, the full data are available for download here (add link here).**
+**If you want to use our data for publications, the full data products are available for download under the data_release section.**
 
 Data used in the `tutorials` section of this repository have been reduced to make them available on GitHub and may not reproduce the results of the 15-year analysis exactly.
 
