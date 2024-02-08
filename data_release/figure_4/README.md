@@ -1,0 +1,1 @@
+You will need to download the data from Google drive: https://drive.google.com/file/d/19I8qAnLCrCo7PBa5k5rXUG27U9S7LkWS/view?usp=sharing. Unpack the file `correlations.tar.gz` and then load the correlations from `correlations_gamma4p33_nfreq14.npz` and `correlations_variedgamma_nfreq14.npz`.
