@@ -11,7 +11,7 @@ Authors: [Aaron Johnson](https://github.com/AaronDJohnson), [Pat Meyers](https:/
 Please send questions about this tutorial to `aaron.johnson (at) nanograv.org`
 
 ## <span style="color:red">Important Note About Data!</span>
-**If you want to use our data for publications, the full data are available for download here (add link here).**
+**If you want to use our data for publications, the full data products are available for download under the data_release section.**
 
 Data used in the `tutorials` section of this repository have been reduced to make them available on GitHub and may not reproduce the results of the 15-year analysis exactly.
 
@@ -22,8 +22,8 @@ Data used in the `tutorials` section of this repository have been reduced to mak
     * Download and install the relevant Miniforge file from here: https://github.com/conda-forge/miniforge
 
 
-2. To install a new environment: `conda create -n enterprise -c conda-forge enterprise_extensions la_forge h5pulsar ipympl jupyterlab`
-    * Newer Macs (M1/M2/M3) can make a conda environment and install `enterprise` by first following the instructions [here](https://conda-forge.org/docs/user/tipsandtricks.html#installing-apple-intel-packages-on-apple-silicon) to create an environment and then using `conda install -c conda-forge enterprise_extensions la_forge h5pulsar ipympl jupyterlab`
+2. To install a new environment: `conda create -n enterprise -c conda-forge enterprise_extensions la_forge h5pulsar jupyterlab pyarrow pytables seaborn`
+    * Newer Macs (M1/M2/M3) can make a conda environment and install `enterprise` by first following the instructions [here](https://conda-forge.org/docs/user/tipsandtricks.html#installing-apple-intel-packages-on-apple-silicon) to create an environment and then using `conda install -c conda-forge enterprise_extensions la_forge h5pulsar jupyterlab pyarrow pytables seaborn`
 
 3. This will create a conda environment that can be activated by `conda activate enterprise`
 
