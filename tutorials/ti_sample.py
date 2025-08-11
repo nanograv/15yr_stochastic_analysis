@@ -5,7 +5,7 @@
 import numpy as np
 import json
 import glob
-from h5pulsar.pulsar import FilePulsar
+from enterprise_extensions.load_feathers import load_feathers_from_folder
 
 from enterprise_extensions import sampler, models
 
@@ -41,10 +41,8 @@ if __name__ == '__main__':
     with open(datadir + 'v1p1_wn_dict.json') as f:
         wn_params = json.load(f)
 
-    psrs = []
-    for hdf5_file in glob.glob(datadir + '/hdf5/*.hdf5'):
-        psrs.append(FilePulsar(hdf5_file))
-    print('Loaded {0} pulsars from hdf5 files'.format(len(psrs)))
+    psrs = load_feathers_from_folder(datadir + '/feathers')
+    print('Loaded {0} pulsars from feather files'.format(len(psrs)))
 
     # change this to whichever model you would like to sample:
     sample_curn(psrs, wn_params)
